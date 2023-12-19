@@ -1,5 +1,5 @@
 import Nav from '@components/nav/Nav'
-import 'styles/globals.css'
+import '@styles/globals.css'
 import { Inter } from 'next/font/google'
 import Category from '@components/nav/Category'
 import Provider from '@components/auth/Context'
