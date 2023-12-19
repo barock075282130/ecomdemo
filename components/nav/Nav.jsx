@@ -14,7 +14,7 @@ const Nav = () => {
   const { cartItems } = useCart()
   return (
     <nav className="flex justify-between font-semibold fixed z-20 top-0 w-full p-4 shadow-lg bg-white">
-        <Link href='/'>Home</Link>
+        <Link href='/products'>Home</Link>
         <div className="flex gap-3 items-center">
           <Link href='/products'>All Products</Link>
           <Link href='/carts'>
